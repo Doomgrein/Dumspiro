@@ -18,7 +18,7 @@ public class GameScreen implements Screen {
         // Когда в игре переключаемся на этот экран
         batch = new SpriteBatch();
         bucketTexture = new Texture(Gdx.files.internal("bucket.png"));
-        bucket = new Bucket(bucketTexture, 30, 0,64,64);
+        bucket = new Bucket(bucketTexture, 31, 0,64,64);
     }
 
     @Override
